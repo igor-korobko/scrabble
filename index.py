@@ -26,7 +26,7 @@ for word in f1.readlines():
         for letter in word:
             for l in points:
                 if letter in l[0]:
-                    t_max_count += 1
+                    t_max_count += l[1]
         if t_max_count > max_count:
             max_count = t_max_count
             max_word = word
