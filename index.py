@@ -8,7 +8,7 @@ points = [["e, a, i, o, n, r, t, l, s, u", 1],
           ["k", 5],
           ["j, x", 8],
           ["q, z", 10]
-        ]
+         ]
 
 max_count = 0
 t_max_count = 0
