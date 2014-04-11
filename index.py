@@ -22,7 +22,7 @@ for word in f1.readlines():
         if letter not in word:
             flag = False
 
-    if flag:
+    if flag and word.count(letter) == input_word.count(letter):
         for letter in word:
             for l in points:
                 if letter in l[0]:
